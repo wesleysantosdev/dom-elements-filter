@@ -8,8 +8,8 @@
   --gray-900: #121214;
   --gray-300: #444448;
 
-  --primary-200: #fcd085;
-  --primary-400: #ffbc48;
+  --primary-200: #D6D6FF;
+  --primary-400: #bebeeb;
   font-size: 62.5%;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 body * {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -124,6 +124,8 @@ li h2 {
 li p {
   margin-top: 1.6rem;
   opacity: .5;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 li a {
@@ -134,6 +136,7 @@ li a {
   text-decoration: none;
 
   transition: color .2s;
+  font-weight: 500;
 }
 
 li a:hover {
